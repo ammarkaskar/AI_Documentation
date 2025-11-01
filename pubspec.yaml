@@ -1,0 +1,68 @@
+name: documentation_ai
+description: AI-powered documentation generation app with DeepSeek API integration
+
+# Prevent accidental publishing to pub.dev
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # HTTP requests for API calls
+  http: ^1.1.0
+  
+  # PDF generation
+  pdf: ^3.10.4
+  
+  # For printing PDFs
+  printing: ^5.11.0
+  
+  # Local file storage
+  path_provider: ^2.1.1
+  
+  # Sharing functionality
+  share_plus: ^7.2.1
+  
+  # File picker for attachments
+  file_picker: ^8.0.0
+  
+  # Icons
+  cupertino_icons: ^1.0.6
+  
+  # Permission handling
+  permission_handler: ^11.0.1
+  
+  # For better date/time formatting
+  intl: ^0.18.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+  
+  # SQLite testing support
+  sqflite_common_ffi: ^2.3.0
+
+flutter:
+  uses-material-design: true
+
+  # Uncomment and add custom fonts if needed
+  # fonts:
+  #   - family: Inter
+  #     fonts:
+  #       - asset: fonts/Inter-Regular.ttf
+  #       - asset: fonts/Inter-Medium.ttf
+  #         weight: 500
+  #       - asset: fonts/Inter-Bold.ttf
+  #         weight: 700
+
+  # Uncomment to add assets
+  # assets:
+  #   - images/
+  #   - assets/
