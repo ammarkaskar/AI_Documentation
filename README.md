@@ -1,4 +1,4 @@
-# 🧠 Documentation AI
+# 🧠 AI Documentation 
 
 A Flutter-based app that uses **Google Gemini API** to generate clear, professional documentation for any topic or code. The app allows users to **generate**, **save**, **export as PDF**, and **share** AI-generated documentation easily.
 
