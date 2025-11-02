@@ -61,7 +61,7 @@ class _ChatScreenState extends State<ChatScreen> with TickerProviderStateMixin {
   // TODO: Add your FREE Google Gemini API key here
   // Get it from: https://makersuite.google.com/app/apikey
   static const String GEMINI_API_KEY =
-      'AIzaSyBegwhsyLwUHywY4UQZsuPE5Rw4o-lgjQ0';
+      'API KEY IN HERE';
   static const String GEMINI_API_URL =
       'https://generativelanguage.googleapis.com/v1/models/gemini-2.5-flash:generateContent';
 
@@ -938,3 +938,4 @@ class _ActionTile extends StatelessWidget {
     );
   }
 }
+
